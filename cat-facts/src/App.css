@@ -6,27 +6,9 @@ main {
     font-family: system-ui;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-section img {
+main img {
     width: auto;
     height: 240px;
-}
-
-section button {
-    margin-top: 20px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
 }
 
 .fact-button {
@@ -36,6 +18,7 @@ section button {
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .fact-button:hover {
